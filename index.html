@@ -66,8 +66,8 @@
         <p>Setiap alamat IP dihitung satu kali per hari. Kunjungan dari IP yang sama pada hari berikutnya dihitung kembali.</p>
       </div>
       <div class="visitor-stats">
-        <div class="visitor-stat"><span id="visitor-today">—</span><small>HARI INI</small></div>
-        <div class="visitor-stat"><span id="visitor-total">—</span><small>TOTAL KUNJUNGAN HARIAN UNIK</small></div>
+        <div class="visitor-stat"><span class="visitor-icon"><svg aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg></span><span id="visitor-today">—</span><small>HARI INI</small></div>
+        <div class="visitor-stat"><span class="visitor-icon"><svg aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg></span><span id="visitor-total">—</span><small>TOTAL KUNJUNGAN HARIAN UNIK</small></div>
       </div>
       <p class="visitor-note" id="visitor-status" role="status">Memuat statistik…</p>
     </section>
@@ -80,10 +80,12 @@
     </section>
     <footer>
   EduStudio Suite • Dibuat untuk mendukung kreativitas guru
-  <div class="footer-visitor-stats">
-    <span id="footer-visitor-today">—</span> hari ini |
-    <span id="footer-visitor-total">—</span> total kunjungan
-  </div>
+    <div class="footer-visitor-stats">
+      <span class="footer-visitor-icon"><svg aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg></span>
+      <span id="footer-visitor-today">—</span> hari ini |
+      <span class="footer-visitor-icon"><svg aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg></span>
+      <span id="footer-visitor-total">—</span> total kunjungan
+    </div>
 </footer>
   </main>
   <script src="visitor.js" defer></script>
