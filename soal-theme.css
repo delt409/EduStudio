@@ -1,0 +1,38 @@
+/* EduSoal Studio 2.0 — editorial SaaS visual identity */
+body:has(#typeSwitch){background:radial-gradient(ellipse 45% 30% at 90% 0%,#203a4e 0%,transparent 90%),#0b1421;color:#edf5f7}
+body:has(#typeSwitch) .sidebar{background:#0e1b29;border-color:#24394a}
+body:has(#typeSwitch) .logo span,body:has(#typeSwitch) h1 span{color:#62dbc7}
+body:has(#typeSwitch) .sidebar nav a.active{background:#173e43;color:#a4fff0;border:1px solid #2a696a}
+body:has(#typeSwitch) .sidebar nav a:hover{background:#183343}
+body:has(#typeSwitch) .eyebrow{color:#76ddce}
+body:has(#typeSwitch) .chip{background:#153b3e;border:1px solid #37716d;color:#b0f9e9}
+body:has(#typeSwitch) .hero{background:linear-gradient(115deg,#174e59 0%,#226d6e 55%,#3d8182 100%);box-shadow:0 24px 65px #06151b66;border:1px solid #469a92;padding:46px 44px}
+body:has(#typeSwitch) .hero h2{font-size:clamp(27px,3vw,43px);line-height:1.17;letter-spacing:-1.7px}
+body:has(#typeSwitch) .hero p{color:#d5f5f1}
+body:has(#typeSwitch) .hero-kicker{color:#c0fff2}
+body:has(#typeSwitch) .hero-art{transform:none;margin:0 32px}
+.hero-visual{width:180px;height:180px;background:#f1fffa;border-radius:28px;transform:rotate(8deg);box-shadow:0 20px 0 #0c464a88;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#186a69}
+.hero-visual span{font-size:34px}.hero-visual strong{font-size:30px;letter-spacing:4px}.visual-lines{width:95px;display:grid;gap:8px}.visual-lines i{height:7px;border-radius:10px;background:#8bd2c6}.visual-lines i:nth-child(2){width:70%}.visual-lines i:nth-child(3){width:85%}
+body:has(#typeSwitch) .panel,body:has(#typeSwitch) .stat{background:#142433;border:1px solid #2c4655;box-shadow:0 12px 30px #07131c24}
+body:has(#typeSwitch) .panel{border-radius:22px;padding:27px}
+body:has(#typeSwitch) .panel h2{font-size:17px;letter-spacing:-.3px}
+body:has(#typeSwitch) .field label{color:#c4d8de}
+body:has(#typeSwitch) .field input,body:has(#typeSwitch) .field select,body:has(#typeSwitch) .field textarea,body:has(#typeSwitch) .preview{background:#0b1a28;border:1px solid #355261;border-radius:12px;color:#eff9fb;padding:13px}
+body:has(#typeSwitch) .field input:focus,body:has(#typeSwitch) .field textarea:focus,body:has(#typeSwitch) .field select:focus{border-color:#55d5bf;box-shadow:0 0 0 3px #39b8a31b}
+body:has(#typeSwitch) .button{background:#55d6bf;color:#062d32;border-radius:12px;font-weight:800}
+body:has(#typeSwitch) .button:hover{filter:brightness(1.08)}
+body:has(#typeSwitch) .button.secondary{background:#263e4b;color:#d9f2f0}
+body:has(#typeSwitch) .button.danger{background:#4a303b;color:#ffdadc}
+body:has(#typeSwitch) .choice{background:#0d202d;border-color:#355160}
+body:has(#typeSwitch) .choice:has(input:checked){background:#133e3e;border-color:#59cdb9}
+body:has(#typeSwitch) .choice input{accent-color:#56d5bd}
+body:has(#typeSwitch) .stat b{color:#a6f6e7}
+body:has(#typeSwitch) .step b{background:#205b5d;color:#c3fff3}
+body:has(#typeSwitch) .notice.success{background:#123c37;border-color:#388875}
+.section-heading{display:flex;align-items:center;gap:13px;margin-bottom:18px}.section-heading .sub{margin-bottom:0}.section-icon{display:grid;place-items:center;background:#204e4f;border:1px solid #397d76;border-radius:13px;color:#a8fff0;width:44px;height:44px;font-size:23px;flex-shrink:0}
+.type-switch{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-bottom:20px}
+.type-card{position:relative;display:flex;flex-direction:column;gap:9px;background:#0d1d2a;border:1px solid #37515e;border-radius:17px;padding:21px;cursor:pointer;transition:transform .15s,border-color .15s,background .15s}
+.type-card:hover{transform:translateY(-2px);border-color:#6bd6c5}.type-card:has(input:checked){background:#153d3e;border:2px solid #65dec8;padding:20px;box-shadow:inset 0 0 0 1px #245957}
+.type-card input{position:absolute;top:15px;right:15px;accent-color:#5edac3;width:17px;height:17px}.type-symbol{width:45px;height:45px;display:grid;place-items:center;border-radius:12px;background:#204b51;color:#b2fff0;font-size:24px}.type-card b{font-size:14px}.type-card small{color:#a6bec7;line-height:1.65;font-size:11px}
+body:has(#typeSwitch) .preview{max-height:580px;font-size:11px;line-height:1.85}
+@media(max-width:760px){.type-switch{grid-template-columns:1fr}.hero-visual{display:none}body:has(#typeSwitch) .hero{padding:27px}body:has(#typeSwitch) .panel{padding:19px}}
